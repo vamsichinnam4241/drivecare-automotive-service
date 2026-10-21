@@ -1,0 +1,9 @@
+{
+  "name": "DriveCare",
+  "tagline": "Care Beyond the Drive.",
+  "category": "Car Servicing & Garage Booking System",
+  "repository": "drivecare-automotive-service",
+  "description": "DriveCare: Care Beyond the Drive. Premium Car Servicing & Garage Booking System with transparent pricing, instant slot booking, and master technician care.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

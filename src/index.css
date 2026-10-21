@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Poppins", sans-serif;
+  --color-brand-red: #D62828;
+  --color-brand-charcoal: #0B192C; /* Deep Dark Navy */
+  --color-brand-navy: #0B192C;
+  --color-brand-navy-dark: #070F1E;
+  --color-brand-navy-light: #152744;
+  --color-brand-amber: #F59E0B;
+}
+
+/* Custom styles for smooth scroll and styling overrides */
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+  background-color: #F8FAFC;
+  color: #111827;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Core Value Card Hover overrides */
+.core-value-card {
+  transition: all 0.3s ease;
+}
+.core-value-card:hover {
+  background-color: var(--color-brand-red) !important;
+  border-color: var(--color-brand-red) !important;
+}
+.core-value-card:hover h4 {
+  color: #FFFFFF !important;
+}
+.core-value-card:hover p {
+  color: #FEE2E2 !important;
+}
+.core-value-card:hover svg {
+  color: #FFFFFF !important;
+}
+.core-value-card:hover .icon-container {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
