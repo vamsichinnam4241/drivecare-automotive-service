@@ -1,2 +1,1 @@
-# drivecare-automotive-service
-A modern automotive service booking web application featuring vehicle maintenance services, pricing, mechanic information, and online appointment booking.
+DriveCare is a modern car garage management and service booking web application that helps users explore automotive services, compare service prices, view garage and mechanic information, and book vehicle maintenance appointments. It features a responsive user interface with dedicated sections for services, pricing, team, gallery, FAQs, and contact information, providing a convenient and user-friendly vehicle care experience.
